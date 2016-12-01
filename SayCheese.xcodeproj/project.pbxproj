@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF84FAE71DF0620C00A71A60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84FAE61DF0620C00A71A60 /* AppDelegate.swift */; };
+		BF84FAE91DF0620C00A71A60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84FAE81DF0620C00A71A60 /* ViewController.swift */; };
+		BF84FAEC1DF0620C00A71A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF84FAEA1DF0620C00A71A60 /* Main.storyboard */; };
+		BF84FAEF1DF0620C00A71A60 /* SayCheese.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF84FAED1DF0620C00A71A60 /* SayCheese.xcdatamodeld */; };
+		BF84FAF11DF0620C00A71A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF84FAF01DF0620C00A71A60 /* Assets.xcassets */; };
+		BF84FAF41DF0620C00A71A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF84FAF21DF0620C00A71A60 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF84FAE31DF0620C00A71A60 /* SayCheese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayCheese.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF84FAE61DF0620C00A71A60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF84FAE81DF0620C00A71A60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF84FAEB1DF0620C00A71A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF84FAEE1DF0620C00A71A60 /* SayCheese.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SayCheese.xcdatamodel; sourceTree = "<group>"; };
+		BF84FAF01DF0620C00A71A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF84FAF31DF0620C00A71A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF84FAF51DF0620C00A71A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF84FAE01DF0620B00A71A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF84FADA1DF0620B00A71A60 = {
+			isa = PBXGroup;
+			children = (
+				BF84FAE51DF0620C00A71A60 /* SayCheese */,
+				BF84FAE41DF0620C00A71A60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF84FAE41DF0620C00A71A60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF84FAE31DF0620C00A71A60 /* SayCheese.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF84FAE51DF0620C00A71A60 /* SayCheese */ = {
+			isa = PBXGroup;
+			children = (
+				BF84FAE61DF0620C00A71A60 /* AppDelegate.swift */,
+				BF84FAE81DF0620C00A71A60 /* ViewController.swift */,
+				BF84FAEA1DF0620C00A71A60 /* Main.storyboard */,
+				BF84FAF01DF0620C00A71A60 /* Assets.xcassets */,
+				BF84FAF21DF0620C00A71A60 /* LaunchScreen.storyboard */,
+				BF84FAF51DF0620C00A71A60 /* Info.plist */,
+				BF84FAED1DF0620C00A71A60 /* SayCheese.xcdatamodeld */,
+			);
+			path = SayCheese;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF84FAE21DF0620B00A71A60 /* SayCheese */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF84FAF81DF0620C00A71A60 /* Build configuration list for PBXNativeTarget "SayCheese" */;
+			buildPhases = (
+				BF84FADF1DF0620B00A71A60 /* Sources */,
+				BF84FAE01DF0620B00A71A60 /* Frameworks */,
+				BF84FAE11DF0620B00A71A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SayCheese;
+			productName = SayCheese;
+			productReference = BF84FAE31DF0620C00A71A60 /* SayCheese.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF84FADB1DF0620B00A71A60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = kodappy;
+				TargetAttributes = {
+					BF84FAE21DF0620B00A71A60 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6G68R287BD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF84FADE1DF0620B00A71A60 /* Build configuration list for PBXProject "SayCheese" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF84FADA1DF0620B00A71A60;
+			productRefGroup = BF84FAE41DF0620C00A71A60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF84FAE21DF0620B00A71A60 /* SayCheese */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF84FAE11DF0620B00A71A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF84FAF41DF0620C00A71A60 /* LaunchScreen.storyboard in Resources */,
+				BF84FAF11DF0620C00A71A60 /* Assets.xcassets in Resources */,
+				BF84FAEC1DF0620C00A71A60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF84FADF1DF0620B00A71A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF84FAE91DF0620C00A71A60 /* ViewController.swift in Sources */,
+				BF84FAE71DF0620C00A71A60 /* AppDelegate.swift in Sources */,
+				BF84FAEF1DF0620C00A71A60 /* SayCheese.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF84FAEA1DF0620C00A71A60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF84FAEB1DF0620C00A71A60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF84FAF21DF0620C00A71A60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF84FAF31DF0620C00A71A60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF84FAF61DF0620C00A71A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF84FAF71DF0620C00A71A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF84FAF91DF0620C00A71A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6G68R287BD;
+				INFOPLIST_FILE = SayCheese/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodappy.SayCheese;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BF84FAFA1DF0620C00A71A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6G68R287BD;
+				INFOPLIST_FILE = SayCheese/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodappy.SayCheese;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF84FADE1DF0620B00A71A60 /* Build configuration list for PBXProject "SayCheese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF84FAF61DF0620C00A71A60 /* Debug */,
+				BF84FAF71DF0620C00A71A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF84FAF81DF0620C00A71A60 /* Build configuration list for PBXNativeTarget "SayCheese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF84FAF91DF0620C00A71A60 /* Debug */,
+				BF84FAFA1DF0620C00A71A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF84FAED1DF0620C00A71A60 /* SayCheese.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF84FAEE1DF0620C00A71A60 /* SayCheese.xcdatamodel */,
+			);
+			currentVersion = BF84FAEE1DF0620C00A71A60 /* SayCheese.xcdatamodel */;
+			path = SayCheese.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF84FADB1DF0620B00A71A60 /* Project object */;
+}
