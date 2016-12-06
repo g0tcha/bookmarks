@@ -16,7 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        guard let _ = User.getLastLogged() else {
+            loadLoginViewController()
+            return true
+        }
+
         return true
     }
 
@@ -91,3 +95,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+let ad = UIApplication.shared.delegate as! AppDelegate
+let context = ad.persistentContainer.viewContext
+
+private extension AppDelegate {
+    func loadLoginViewController() {
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController: LoginViewController = storyboard.instantiateViewController(withIdentifier: "LoginView") as! LoginViewController
+        self.window?.rootViewController? = loginViewController
+    }
+}

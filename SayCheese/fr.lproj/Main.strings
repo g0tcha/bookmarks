@@ -1,0 +1,15 @@
+
+/* Class = "UIBarButtonItem"; title = "Créer un compte"; ObjectID = "EqC-2x-C2f"; */
+"EqC-2x-C2f.title" = "Créer un compte";
+
+/* Class = "UITextField"; placeholder = "Nom d'utilisateur"; ObjectID = "JYD-2E-6Cu"; */
+"JYD-2E-6Cu.placeholder" = "Nom d'utilisateur";
+
+/* Class = "UITextField"; placeholder = "Mot de passe"; ObjectID = "JuP-Mo-wDb"; */
+"JuP-Mo-wDb.placeholder" = "Mot de passe";
+
+/* Class = "UIButton"; normalTitle = "Connexion"; ObjectID = "Yua-5P-bS1"; */
+"Yua-5P-bS1.normalTitle" = "Connexion";
+
+/* Class = "UILabel"; text = "SayCheese"; ObjectID = "aZl-BI-Ifj"; */
+"aZl-BI-Ifj.text" = "SayCheese";
